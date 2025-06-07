@@ -8,7 +8,7 @@ number_to_guess = random.randint(min, max)
 lives = 5
 guesses = 0
 while lives > guesses:
-    guess +=1
+    guesses +=1
     guess = int(input(f"Guess a number between {min} and {max}: "))
     
     if guess < number_to_guess:
